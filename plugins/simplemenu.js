@@ -37,7 +37,13 @@ try {
   })  
 //  let tags
  //  let teks = `${args[0]}`.toLowerCase()
-
+const udylAdha = new Date('March 9 2024 23:59:59')
+    const sekiritt = new Date().getTime() 
+    const oKurangg = udylAdha - sekiritt
+    const ooohari = Math.floor( oKurangg / (1000 * 60 * 60 * 24));
+    const ooojam = Math.floor( oKurangg % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+    const ooonet = Math.floor( oKurangg % (1000 * 60 * 60) / (1000 * 60))
+    const oodetek = Math.floor( oKurangg % (1000 * 60) / 1000)
       // DEFAULT MENU
       let dash = global.dashmenu
       let m1 = global.dmenut
@@ -216,6 +222,9 @@ ${ucapan()}, Saya adalah WhatsApp Bot yang dilengkapi dengan fitur keren seperti
 ┊  WIT : ${wit}
 ┗––––––––––––––––––✥
 
+*Road To Ramadhan 1445 H*
+${ooohari} Hari, ${ooojam} Jam, ${ooonet} Menit, ${oodetek} Detik
+
 *INFO CMD*
      
 *Ⓟ* = Premium
@@ -245,6 +254,7 @@ Note : Jika Anda menemukan kesalahan, laporkan segera dengan mengetik .report se
 ◉ ${usedPrefix}menuislami
 ◉ ${usedPrefix}menujadian
 ◉ ${usedPrefix}menukerang
+◉ ${usedPrefix}menulacakpaket
 ◉ ${usedPrefix}menumaker
 ◉ ${usedPrefix}menunews
 ◉ ${usedPrefix}menunulis
@@ -265,7 +275,7 @@ text: all,
 contextInfo: {
 externalAdReply: {
 title: v,
-thumbnailUrl: menu,
+thumbnailUrl: 'https://i.postimg.cc/CKkJ9Csb/Text-Pro-me-164970bc759dd8.jpg',
 sourceUrl: global.sgc,
 mediaType: 1,
 renderLargerThumbnail: true
@@ -283,7 +293,7 @@ renderLargerThumbnail: true
   }
 }
 handler.help = ['simplemenu']
-handler.command = /^(menu)$/i
+handler.command = /^(simplemenu)$/i
 handler.register = true
 handler.exp = 3
 

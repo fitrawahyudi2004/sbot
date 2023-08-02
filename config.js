@@ -30,7 +30,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // if you don't have it, type "-" or leave it alone so there are credits :v
-
+global.openai = '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'
 global.sig = 'https://instagram.com/fitra_wahyudi_'
 global.sgh = 'https://github.com/fitrawahyudi2004'
 global.sgc = 'https://chat.whatsapp.com/DMeVfGz9QkLCDVHlmCLdai'
@@ -49,11 +49,11 @@ global.ppulsa2 = '0831-3332-9293'
 global.psaweria = ''
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283153728993'
-global.nomorown = '6281262166032'
+global.nomorbot = '6282180255595'
+global.nomorown = '6283153728993'
 global.namebot = 'SMART MD'
 global.nameown = 'FITRA WAHYUDI'
-
+global.mail = 'fitrawahyudi739@gmail.com'
 /*============== Github Thanks To ==============*/
 global.namagithub = 'SMART-MD'
 global.linkgithub = sgh
@@ -72,14 +72,14 @@ global.lann = 'trial'
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281262166032', 'FITRA WAHYUDI', true],
+  ['6283153728993', 'FITRA WAHYUDI', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
 ]
 global.mods = [] 
-global.prems = ['6281262166032'] 
+global.prems = [] 
 
 
 /*============== API ==============*/
@@ -149,7 +149,7 @@ global.giflogo = VideoGalau()
 global.thumbs = ImgBoneka()
 global.donasi = 'https://telegra.ph/file/980b183cc268c2991bdd3.jpg'
 global.pilihan = 'https://telegra.ph/file/64c2ba179bfd4a5d9a949.jpg'
-global.menu = 'https://telegra.ph/file/2ab02336764d7c384a6c9.jpg'
+global.menu = `https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=MENU`
 global.zykomd = 'https://telegra.ph/file/b6a18e707df27c268a42b.jpg'
 global.fla = 'https://telegra.ph/file/9cc48b21c6eda65133682.jpg'
 global.brocas = "https://telegra.ph/file/cc1cca5db80d023cd470b.jpg"

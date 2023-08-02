@@ -16,4 +16,4 @@ handler.limit = true
 handler.premium = true
 handler.register = true
 
-export default handlers
+export default handler

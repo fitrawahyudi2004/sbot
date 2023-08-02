@@ -14,7 +14,7 @@ import db from '../lib/database.js'
  // }] 
  // } 
  let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isROwner }) => {
- const { isBanned, welcome, detect, sWelcome, sBye, anticall, nsfw, premnsfw, autoresponder, viewonce, autoread, restrict, useDocument, stiker, autolevelup, antibadword, whitelistmycontacts, self, premnsfwchat, document, antiwame, autosticker, getmsg, nyimak, swonly, pconly, gconly, sPromote, sDemote, antiLinkTik, antiLinkTel, antiLinkIg, antiLinkHttp, antiLinkYt, antiLinkFb, antiVirtex, antiToxic, antiLink, antiLinkWame, simi, antiStiker, antiSpam, del } = global.db.data.chats[m.chat]
+ const { isBanned, welcome, detect, sWelcome, sBye, anticall, nsfw, premnsfw, autoresponder, viewonce, autoread, restrict, useDocument, stiker, autolevelup, antibadword, whitelistmycontacts, self, premnsfwchat, document, antiwame, autosticker, getmsg, nyimak, swonly, pconly, gconly, sPromote, sDemote, antiLinkTik, antiLinkTel, antiLinkIg, antiLinkHttp, antiLinkYt, antiLinkFb, antiVirtex, antiToxic, antiLink, antiLinkWame, ai, antiStiker, antiSpam, del } = global.db.data.chats[m.chat]
   let isEnable = /true|enable|(turn)?on|1/i.test(command)
   let chat = global.db.data.chats[m.chat]
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -253,12 +253,13 @@ let name = await conn.getName(who)
       }
       chat.antiSatir = isEnable
       break
-      case 'simi':
+     case 'ai':
+        isAll = true
         if (!isROwner) {
           global.dfail('rowner', m, conn)
           throw false
         }
-      chat.simi = isEnable
+      chat.ai = isEnable
       break
       case 'autovn':
         if (!isROwner) {
@@ -452,7 +453,7 @@ antilinkig
 antilinkfb 
 anticall 
 antibadword
-simi
+ai
 autosticker 
 autolevelup 
 autoread 

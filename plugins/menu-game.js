@@ -314,7 +314,7 @@ Hallo kak ${name}, ${ucapan()}, Saya adalah WhatsApp Bot yang dilengkapi dengan 
 ┊  Tanggal Islam: ${dateIslamic}
 ┊  Hari : ${week} 
 ┊  Weton : ${weton}
-┊  WIB : ${time}
+┊  WIB : ${wib}
 ┊  WITA : ${wita}
 ┊  WIT : ${wit}
 ┗––––––––––––––––––✥

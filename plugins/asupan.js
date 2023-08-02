@@ -5,7 +5,6 @@ handler.help = ['asupan']
 handler.tags = ['asupan']
 handler.command = /^asupan$/i
 
-handler.prem
 
 
 
@@ -14,8 +13,7 @@ handler.prem
 
 
 
-
-ium = fals6e
+ium = false
 handler.fail = null
 handler.register = true
 

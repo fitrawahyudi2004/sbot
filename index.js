@@ -119,7 +119,7 @@ app.get("/*", (req, res) => {
   res.send({ error: "Endpoint: home, game, chat, tools, music" })
 })
 app.listen(5000, () => {
-  console.log("BOT is up and running")
+  console.log("Running...")
 })
 app.set("json spaces", 1); 
 app.use(monitor())

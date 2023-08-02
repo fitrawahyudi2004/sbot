@@ -8,7 +8,7 @@ let tag = `@${m.sender.replace(/@.+/, '')}`
 let name = conn.getName(m.sender)
 let cin = await bucin()
 //let nth = '❲ *Bᴜᴄɪɴ* ❳'
-  m.reply(`${ucapan} ${name}\n❲ *Bᴜᴄɪɴ* ❳\n❏ ${cin}`)
+  m.reply(`${ucapan} \n${name}\n❲ *Bᴜᴄɪɴ* ❳\n❏ \n${cin}`)
 }
 
 handler.help = ['q-bucin']

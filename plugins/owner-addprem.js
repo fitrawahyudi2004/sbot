@@ -15,13 +15,13 @@ user.premium = true
     m.reply(`✔️ Success
 📛 *Name:* ${user.name}
 📆 *Days:* ${txt} days
-📉 *Countdown:* ${user.premiumTime - now}`)
+`)
 }
 handler.help = ['addprem [@user] <days>']
 handler.tags = ['owner']
 handler.command = /^(add|tambah|\+)p(rem)?$/i
 
-handler.group = true
+handler.group = false
 handler.rowner = true
 
 export default handler

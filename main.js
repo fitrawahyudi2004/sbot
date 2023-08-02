@@ -172,7 +172,7 @@ async function connectionUpdate(update) {
     }
   if (connection == 'open') { console.log(chalk.yellow('Made by ' + author)) }
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) return this.sendButton(nomorown + '@s.whatsapp.net', 'Bot Successfully Connected', author, null, [['MENU', '/menu']], null)
+  if (update.receivedPendingNotifications) return this.sendFile(nomorown + '@s.whatsapp.net', 'https://telegra.ph/file/b6a18e707df27c268a42b.jpg', null, 'Halo Owner Bot telah terhubung ke internet..', null )
   if (connection == 'close') {
     console.log(chalk.yellow(`🚩ㅤConnection closed, if the bot doesn't respond, delete the ${global.authFile} folder/file and re-scan the QR code`))}
     }

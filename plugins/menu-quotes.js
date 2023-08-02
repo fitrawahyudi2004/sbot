@@ -15,43 +15,7 @@ import fetch from "node-fetch"
 
 let emot = `${pickRandom(['⎔', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '▢', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚝', '⚚', '♪'])}`
    let tags = {
-   'main': '*MAIN MENU*', 
-   'game': '*GAME*',
-   'rpg': '*RPG GAMES*',
-   'xp': '*EXP & LIMIT*',
-   'sticker': '*STICKER*',
-   'kerang': '*KERANG AJAIB*',
    'quotes': '*QUOTES*',
-   'fun': '*FUN*',
-   'asupan': '*ASUPAN*',
-   'cerpen': '*CERPEN*',
-   'anime': '*ANIME*',
-   'group': '*GROUP*',
-   'vote': '*VOTING*',
-   'premium': '*PREMIUM*',
-   'asupan': '*ASUPAN*',
-   'anonymous': '*ANONYMOUS CHAT*',
-   'internet': '*INTERNET*',
-   'news': '*NEWS*',
-   'image': '*IMAGE*',
-   'randomfoto': '*RANDOM FOTO*',
-   'stalker': '*STALKER*',
-   'downloader': '*DOWNLOADER*',
-   'tools': '*TOOLS*',
-   'nulis': '*MAGERNULIS*',
-   'audio': '*AUDIO*',
-   'sound': '*SOUND*',
-   'openai': '*OPENAI*',
-   'maker': '*TEXTPRO*',
-   'ephoto': '*EPHOTO 360*',
-   'database': '*DATABASE*',
-   'quran': '*AL QUR\'AN*',
-   'owner': '*OWNER*',
-   'ownerstore': '*OWNER STORE*',
-   'host': '*HOST*',
-   'jadian': '*JADIAN*',
-   'advanced': '*ADVANCED*',
-   'info': '*INFO*',
 }   
 const defaultMenu = {
 before: ` `.trimStart(),
@@ -350,7 +314,7 @@ ${ucapan()}, Saya adalah WhatsApp Bot yang dilengkapi dengan fitur keren seperti
 ┊  Tanggal Islam: ${dateIslamic}
 ┊  Hari : ${week} 
 ┊  Weton : ${weton}
-┊  WIB : ${time}
+┊  WIB : ${wib}
 ┊  WITA : ${wita}
 ┊  WIT : ${wit}
 ┗––––––––––––––––––✥

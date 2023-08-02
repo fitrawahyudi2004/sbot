@@ -919,8 +919,8 @@ export async function handler(chatUpdate) {
                     chat.delete = true
                 if (!('viewonce' in chat))
                     chat.viewonce = false
-                if (!('simi' in chat))
-                    chat.simi = false
+                if (!('ai' in chat))
+                    chat.ai = false
                 if (!('autoread' in chat)) 
                     chat.autoread = false
                 if (!('nsfw' in chat))
@@ -957,7 +957,7 @@ export async function handler(chatUpdate) {
                     sDemote: '',
                     delete: true,
                     viewonce: false,
-                    simi: false,
+                    ai: false,
                     expired: 0,
                     nsfw: false,
                     premnsfw: false,
@@ -1266,7 +1266,7 @@ export async function handler(chatUpdate) {
                         }
                     }
                     if (m.limit)
-                        m.reply(+m.limit + " Limits Used 🚩️")
+                        m.reply(+m.limit + " Limit anda telah terpakai 🚩️")
                 }
                 break
             }

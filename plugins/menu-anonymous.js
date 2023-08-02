@@ -314,7 +314,7 @@ ${ucapan()}, Saya adalah WhatsApp Bot yang dilengkapi dengan fitur keren seperti
 ┊  Tanggal Islam: ${dateIslamic}
 ┊  Hari : ${week} 
 ┊  Weton : ${weton}
-┊  WIB : ${time}
+┊  WIB : ${wib}
 ┊  WITA : ${wita}
 ┊  WIT : ${wit}
 ┗––––––––––––––––––✥
@@ -331,7 +331,7 @@ text: all + readMore + '\n\n' + text,
 contextInfo: {
 externalAdReply: {
 title: v,
-thumbnailUrl: menu,
+thumbnailUrl: 'https://i.postimg.cc/9Qjb38J1/64970cdc7eef5.jpg',
 sourceUrl: global.sgc,
 mediaType: 1,
 renderLargerThumbnail: true
